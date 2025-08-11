@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(43, 43, 96, 0.928);
+    color: aliceblue;
+    padding-block: 4px;
+}
+
+.galeria {
+    display: columns;
+    columns: 3;
+}
+
+.galeria img {
+    width: 100%;
+    padding-block: 4px;
+}
