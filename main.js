@@ -3,8 +3,12 @@
 function createImg(url_image) {
     const galery = document.getElementById('galery')
     const img = document.createElement('img')
+    const p = document.createElement('p')
     img.src = url_image.url
+    p.textContent = url_image.name
     galery.appendChild(img)
+    galery.appendChild(p)
+
 }
 
 
